@@ -1,0 +1,130 @@
+#container {
+}
+
+#topbar {width:100%;
+         height: 60px;
+         background-color: teal;}
+.fixedwidth {width:900px;
+             margin:auto;}
+#logoarea{float:left;
+            padding-top:5px;
+            margin-left:15px;}
+
+#topmenu {font-family: Arial, Helvetica, sans-serif;
+          font-size: 1.1em;}
+
+#topmenu li{float:left;
+            color:black;
+            list-style: none;
+            margin-left: 35px;
+            padding-top: 18px;}
+
+
+ul li:hover{background:teal;}
+option {display:inline;
+        float:down;}
+
+ul li ul  {padding:0; 
+      position: absolute;
+      display: inline-block;
+      visibility: hidden;}
+
+.dropdown {background-color:teal;
+             position:absolute;
+            display: inline-block;
+            visibility: visible;}
+.dropdown: hover{ background-color:teal;}
+ul li:hover ul{display: block;
+               opacity: 1;
+                visibility: visible;}
+
+ul ul ul li {display:block;}
+
+ul ul li:hover li{display:block;
+                  }
+
+ul ul ul{left:100%
+          Top:0;}
+
+
+#socialmedia {font-family: Arial, Helvetica, sans-serif;
+          font-size: 1.1em;}
+    
+#socialmedia li{float:left;
+            color:white;
+            list-style: none;
+            margin-left: 35px;
+            padding-top: 80px;}
+#onclick{text-align: center;}
+
+
+a:link {color:white;
+        text-decoration: none;}
+a:visted{color:navajowhite;}
+a:hover{text-decoration: underline;}
+a:active {text-decoration: underline;}
+
+.content-wrapper{width:80%;
+                 margin:4% 10% 5% 10%;}
+.content-wrapper img{width:90%;
+                     padding-top: 30px;
+                    }
+.text-wrapper {width: 90%;
+               position: relative;
+               margin-top: -40%;}
+.text-wrapper h1{text-align: center;
+                color:whitesmoke;
+                font-size:6vw;
+                font-family:Ariel, Helvetica, sans-serif;}
+
+#body-content {padding-top:20px;
+               width:100%;
+               background-color: mintcream;}
+#headline1{color:darkgoldenrod;
+            font-family:'Helvetica Neue', Helvetica, Arial, Utkal, sano-serif; 
+            font-size:3em;
+            background-color: mintcream;
+            margin-bottom:inherit;
+            padding-bottom: 10px;
+            border-style:outset;}
+#headlineimage{float:left;}
+
+
+#contact{align-content:bottom-center;}
+
+
+#aboutme{text-align: center;
+    float:left;
+          padding-top:70px;
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 1.1em;}
+#survey{float;left;
+        padding-top:50px;}
+
+
+#ForStudents{float:left;
+          padding-top:70px;
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 1.1em;}
+#Resources{padding-top:70px;
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 1.1em;}
+#table,th,td{border:1px solid black;}
+              
+
+.footer {
+          position: relative;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          background-color:teal;
+          color: white;
+          text-align: center;}
+
+
+#description{ padding-top: 20px;
+              font-family: Helvetica, sans-serif;
+              font-size:3vw;}
+
+
+

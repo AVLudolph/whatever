@@ -1,0 +1,166 @@
+<html> 
+<head>
+    <title>DramaTech Form</title>
+    
+    <style type="text/css">
+        
+        h1{text-align: center;
+        background: teal; 
+        font-family:cursive;}
+        h2{text-align: center;
+        background:teal;
+        font-family:cursive;}}
+        
+        img{width:auto}
+        
+     label{
+            float:top;
+            width: 150px;
+            text-align:right;
+            padding-right: 12px;
+            margin-top: 12px;
+            clear: left;}
+        
+        input, textarea {margin-top:12px;
+           background-color: teal;
+             box-shadow:3px 2px 0px; }
+        
+        #simpleForm{
+            background-color: lightcyan;
+            width:100%;
+            padding-left: 20px}
+            
+            
+            #reason{
+             float:Top;
+            width: 150px;
+            text-align:right;
+            padding-right: 120px;
+            margin-top: 12px;
+            clear: left;
+            }
+        
+        input[type="radio"]{
+            margin: 10px;}
+        
+        input[type="checkbox"]{
+            margin: 10px;}
+        
+        input[type="comments"]{
+            margin: 10px;}
+        
+        #theSubmit{
+            text-align:right
+            margin-left:200px;
+            padding-left: 320px;}
+        
+    </style>
+    
+</head>
+    
+    <body>
+        
+    <div>
+        <div id="container"></div>
+             <div id="main"></div>
+             <div id="header"> </div>
+                <h1>DramaTech</h1>
+                <h2>Visitor Form</h2>
+        
+    </div>
+        
+        
+<form id="DramatechForm">
+    
+    <form name="DramaTech" method="post">
+       
+    <div>
+        Primary Reason for visiting DramaTech: <select name="reason"> 
+                       
+            <option value= "I am a Drama Teacher" >I am a Drama Teacher
+            </option>
+    
+            <option value="I teach a drama class">I teach a drama class</option>
+            
+                        
+            <option value="I am a student">I am a student</option>
+                 
+            <option value="I am a theatre volunteer">I am a Theatre Volunteer</option>
+                 
+            <option value="Other">Other</option>
+        </select>
+        </div>
+    
+        
+        <div>
+            
+            <br>    
+        
+    <label for="frequency"> How often do you visit this website?</label> <br>
+           
+        <input type="radio" name="frequency" id="This is my first visit" >This is my first visit<br>
+          
+        <input type="radio" name="frequency" id="several times a week" >Several times a week<br>
+    
+        <input type="radio" name="frequency" id="several times a month" >Several times a month <br>
+         
+        <input type="radio" name="frequency" id="several times a year" >Several times a year<br>
+             
+        <input type="radio" name="frequency" id="I never visit Silver City" >I never visit Silver City<br>
+            <br>
+            
+        </div>
+        
+        <div>
+        
+    <label for="improvement"> What would make our website more helpful? (Check all that apply) </label><br>
+           
+        <input type="checkbox" name="improvement[]"[ id="more videos" >More videos<br>
+          
+        <input type="checkbox" name="improvement[]" id="more lesson plans" >More lesson plans<br>
+    
+        <input type="checkbox" name="improvement[]" id="more student resources" >More student resources <br>
+         
+        <input type="checkbox" name="improvement[]" id="more information about transformative technology" >More information about transformative technology<br>
+            
+        <input type="checkbox" name="improvement[]" id="I like it how it is" >I like it how it is<br>
+        
+            
+        </div>
+        
+     <div> 
+        
+<label for="ZipCode">Zip Code:</label>
+    <input type="Text" name="zipCode" id="zipCode"><br> 
+    <br>
+        
+    </div>
+          
+    <div>
+
+<Label for="comments">Please share any additional comments or suggestions:</Label> <br>
+        <textarea name="comments" id="comments" rows="5" cols="50"></textarea>
+        
+        </div>
+        
+    <div>
+        <br>
+        
+<label for="email">Would you like to recieve occasional information on what is happening on DramaTech? </label>
+        <br>
+            
+    <input type="radio" name="email" id="YES!">YES!
+        <br>
+    <label for="email">Email:</label>
+    <input type="email" name="email"> 
+        
+        </div>
+        <div id="theSubmit">
+        <input type="Submit" value="Submit">
+            
+            </div>
+            
+    </form>
+    </form> 
+</body>
+</html>
